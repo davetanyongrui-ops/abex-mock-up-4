@@ -1,0 +1,127 @@
+[
+    {
+        "content_json": {
+            "root": {
+                "props": {
+                    "title": "Home"
+                }
+            },
+            "content": [
+                {
+                    "id": "home-hero",
+                    "type": "Hero",
+                    "props": {
+                        "title": "Reliable Water Pump Solutions",
+                        "bgImage": "/images/hero/home.webp",
+                        "ctaHref": "/products",
+                        "ctaText": "View Product Range",
+                        "bg_image": "/images/hero/home.webp",
+                        "subtitle": "Power. Precision. Performance. ABEX delivers trusted water pump systems built to move the world's most essential resource — water."
+                    }
+                },
+                {
+                    "id": "home-intro",
+                    "type": "ImageSplit",
+                    "props": {
+                        "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070",
+                        "label": "Company Introduction",
+                        "theme": "light",
+                        "title": "SPECIALIZING IN HIGH-QUALITY INDUSTRIAL PUMPS",
+                        "ctaHref": "/about",
+                        "ctaText": "About ABEX Engineering",
+                        "reverse": false,
+                        "description": "At ABEX Engineering, we specialize in high-quality water pumps, submersible pumps, and industrial pumping systems that power homes, factories, and infrastructures across the region. Our solutions combine efficiency, durability, and engineering excellence, ensuring smooth water flow and dependable performance in every application. One of our featured brands, Paragon Pump, represents our commitment to quality and innovation. From commercial buildings to heavy-duty industrial plants, Paragon Pump is engineered for durability and trusted for performance."
+                    }
+                },
+                {
+                    "id": "home-product-range",
+                    "type": "TextBlock",
+                    "props": {
+                        "heading": "Our Product Range",
+                        "content": "ABEX offers a complete range of water pumping solutions designed to meet every need — from household water supply to complex industrial systems.\n\nWater Pumps\nFor general water transfer, building systems, and agriculture.\n\nSubmersible Pumps\nFor deep wells, drainage, and wastewater management.\n\nIndustrial Pumps\nFor manufacturing, cooling systems, and heavy-duty fluid handling.\n\nAccessories & Parts\nFor system support and performance optimization.\n\nEach product is carefully selected and tested to ensure consistent operation and long service life, even under demanding conditions.",
+                        "ctaText": "View All Products",
+                        "ctaHref": "/products",
+                        "backgroundColor": "#f8fafc"
+                    }
+                },
+                {
+                    "id": "home-features",
+                    "type": "FeatureGrid",
+                    "props": {
+                        "label": "Core Capabilities",
+                        "heading": "WHY PARTNER WITH ABEX?",
+                        "features": [
+                            {
+                                "icon": "Factory",
+                                "title": "Authorized Distribution",
+                                "description": "Primary distributor for Paragon Pump and American Marsh in the region."
+                            },
+                            {
+                                "icon": "Zap",
+                                "title": "Advanced Engineering",
+                                "description": "Advanced fluid dynamics and hydraulic system design for complex industrial needs."
+                            },
+                            {
+                                "icon": "Settings",
+                                "title": "Lifecycle Support",
+                                "description": "Full lifecycle maintenance, rapid spare parts, and 24/7 technical assistance."
+                            },
+                            {
+                                "icon": "Droplet",
+                                "title": "Certified Quality",
+                                "description": "ISO 9001 certified quality control ensures every unit meets extreme durability standards."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "home-brands",
+                    "type": "BrandsGrid",
+                    "props": {
+                        "title": "Authorized Engineering Brands",
+                        "description": "ABEX is the primary distributor for the world's most trusted pump manufacturers, ensuring peak performance for critical infrastructure.",
+                        "brands": [
+                            {
+                                "name": "Paragon Pump",
+                                "logo": "/images/brands/paragon.png",
+                                "description": "Highly efficient centrifugal and horizontal split-case pumps designed for municipal, industrial, and fire protection systems worldwide."
+                            },
+                            {
+                                "name": "American Marsh",
+                                "logo": "/images/brands/american-marsh.png",
+                                "description": "Legacy American engineering providing robust vertical turbines and heavy-duty process pumps for volatile fluid management."
+                            },
+                            {
+                                "name": "Weinman",
+                                "logo": "/images/Weinman logo.jpg",
+                                "description": "Premium American-made pumps with over 150 years of engineering heritage in HVAC and general industrial fluid handling."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "home-projects-teaser",
+                    "type": "TextBlock",
+                    "props": {
+                        "heading": "Our Projects",
+                        "content": "ABEX has completed numerous projects across Singapore — from residential developments to large-scale industrial plants.\n\nOur portfolio includes installations for cooling systems, wastewater treatment, and commercial water distribution, all reflecting our dedication to efficiency, reliability, and long-term performance.\n\nWhether you need a custom water system, technical consultation, or product supply, ABEX is ready to help you build something that flows with confidence.",
+                        "ctaText": "View Our Projects",
+                        "ctaHref": "/projects",
+                        "backgroundColor": "#ffffff"
+                    }
+                },
+                {
+                    "id": "home-final-cta",
+                    "type": "ShortCTA",
+                    "props": {
+                        "title": "ABEX Engineering",
+                        "subtitle": "Reliable Water Pump Solutions for Every Industry.",
+                        "ctaText": "Contact Us Today",
+                        "ctaHref": "/contact",
+                        "bgImage": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2000"
+                    }
+                }
+            ]
+        }
+    }
+]
