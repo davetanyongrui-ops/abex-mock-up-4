@@ -95,7 +95,7 @@ export function ServicingView({ isEditable = false, initialData }: ServicingView
             <section className="relative min-h-[500px] md:min-h-[750px] py-32 flex items-center overflow-hidden bg-slate-900 border-b border-white/5">
                 <div className="absolute inset-x-0 inset-y-0 z-0">
                     <Image
-                        src="/images/abex-servicing.jpeg"
+                        src="/images/abex servicing hero.jpeg"
                         alt="Abex Engineering Servicing"
                         fill
                         className="object-cover object-center"
