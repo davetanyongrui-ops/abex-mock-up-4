@@ -155,47 +155,7 @@ export function ContactView({ isEditable = false, initialData }: ContactViewProp
                                 </div>
                             </div>
 
-                            <div className="flex items-start">
-                                <div className="flex-shrink-0 bg-white p-3 border border-slate-200 shadow-sm rounded-lg text-slate-900">
-                                    <Phone className="w-6 h-6" />
-                                </div>
-                                <div className="ml-5">
-                                    <h3 className="text-lg font-bold text-slate-900 uppercase tracking-tight">
-                                        {isEditable ? <InlineText as="span" content={getLabel('hvacEnquiries')} className={getClasses('hvacEnquiries')} onUpdate={d => handleUpdate('hvacEnquiries', d)} /> : <span className={getClasses('hvacEnquiries')}>{getLabel('hvacEnquiries')}</span>}
-                                    </h3>
-                                    <div className="mt-1 text-slate-500 text-sm space-y-1">
-                                        {isEditable ? <InlineText as="div" content={getLabel('hvacEmail')} className={getClasses('hvacEmail')} onUpdate={d => handleUpdate('hvacEmail', d)} /> : <div className={getClasses('hvacEmail')}>{getLabel('hvacEmail')}</div>}
-                                        {isEditable ? <InlineText as="div" content={getLabel('hvacMobile')} className={getClasses('hvacMobile')} onUpdate={d => handleUpdate('hvacMobile', d)} /> : <div className={getClasses('hvacMobile')}>{getLabel('hvacMobile')}</div>}
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div className="flex items-start">
-                                <div className="flex-shrink-0 bg-white p-3 border border-slate-200 shadow-sm rounded-lg text-slate-900">
-                                    <Phone className="w-6 h-6" />
-                                </div>
-                                <div className="ml-5">
-                                    <h3 className="text-lg font-bold text-slate-900 uppercase tracking-tight">
-                                        {isEditable ? <InlineText as="span" content={getLabel('firePumps')} className={getClasses('firePumps')} onUpdate={d => handleUpdate('firePumps', d)} /> : <span className={getClasses('firePumps')}>{getLabel('firePumps')}</span>}
-                                    </h3>
-                                    <div className="mt-1 text-slate-500 text-sm space-y-1">
-                                        {isEditable ? <InlineText as="div" content={getLabel('fireEmail')} className={getClasses('fireEmail')} onUpdate={d => handleUpdate('fireEmail', d)} /> : <div className={getClasses('fireEmail')}>{getLabel('fireEmail')}</div>}
-                                        {isEditable ? <InlineText as="div" content={getLabel('fireMobile')} className={getClasses('fireMobile')} onUpdate={d => handleUpdate('fireMobile', d)} /> : <div className={getClasses('fireMobile')}>{getLabel('fireMobile')}</div>}
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="flex items-start">
-                                <div className="flex-shrink-0 bg-white p-3 border border-slate-200 shadow-sm rounded-lg text-slate-900 text-opacity-0 border-opacity-0 bg-opacity-0">
-                                    <div className="w-6 h-6" />
-                                </div>
-                                <div className="ml-5 flex flex-col justify-center">
-                                    <div className="text-slate-700 text-sm font-medium space-y-1">
-                                        {isEditable ? <InlineText as="div" content={getLabel('deliveryEnquiry')} className={getClasses('deliveryEnquiry')} onUpdate={d => handleUpdate('deliveryEnquiry', d)} /> : <div className={getClasses('deliveryEnquiry')}>{getLabel('deliveryEnquiry')}</div>}
-                                        {isEditable ? <InlineText as="div" content={getLabel('accountEnquiry')} className={getClasses('accountEnquiry')} onUpdate={d => handleUpdate('accountEnquiry', d)} /> : <div className={getClasses('accountEnquiry')}>{getLabel('accountEnquiry')}</div>}
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
